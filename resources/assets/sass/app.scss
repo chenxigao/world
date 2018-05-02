@@ -151,3 +151,10 @@ section.user_info {
   .panel {
     margin-top: 50px;
   }
+  /* header */
+#logout {
+  cursor:default;
+  &hover {
+    background-color:transparent;
+  }
+}
