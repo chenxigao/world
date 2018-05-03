@@ -17,17 +17,17 @@
                     </div>
 
                      <div class="form-group">
-                         <lable for="email">邮箱：</lable>
+                         <label for="email">邮箱：</label>
                          <input type="text" name="email" class="form-control" value="{{ old('email') }}">
                      </div>
 
                      <div class="form-group">
-                         <lable for="password">密码：</lable>
+                         <label for="password">密码：</label>
                          <input type="passworld" name="password" class="form-control" value="{{ old('password') }}">
                      </div>
 
                      <div class="form-group">
-                         <lable for="passworld_confirmation">确认密码：</lable>
+                         <label for="passworld_confirmation">确认密码：</label>
                          <input type="password" name="password_confirmation" class="form-control" value="{{ old('password_confirmation') }}">
                      </div>
                  <button type="submit" class="btn btn-primary">注册</button>
