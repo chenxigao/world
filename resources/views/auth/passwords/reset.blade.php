@@ -15,7 +15,7 @@
 
               <form class="form-horizontal" method="POST" action="{{ route('password.update') }}">
                   {{ csrf_field() }}
-                  <input type="hidden" name="_token" value="d3f0a2bd2cf8e1d6041d4c199f4e8c65fd1abe172448683323dc8d9e7b42278a">
+
                   <input type="hidden" name="token" value="{{ $token }}">
 
                   <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
