@@ -67,14 +67,15 @@ p {
     color: #fff;
   }
 }
+
 /* footer */
 footer {
   margin-top: 45px;
-  padding-top:5px;
+  padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color:#777;
+  color: #777;
   a {
-    color:#555;
+    color: #555;
   }
   a:hover {
     color: #222;
@@ -87,11 +88,11 @@ footer {
     list-style: none;
     li {
       float: left;
-      marign-left:15px;
+      marign-left: 15px;
     }
   }
   img.brand-icon {
-    weight:17px;
+    weight: 17px;
     height: 17px;
   }
   .slogon {
@@ -99,6 +100,7 @@ footer {
     font-weight: bold;
   }
 }
+
 /* sidebar */
 
 aside {
@@ -140,22 +142,33 @@ section.user_info {
   border-radius: 50%;
 }
 
+
+
 /* forms */
-  input,textarea,select,.uneditable-input{
-    border:1px solid #bbb;
-    marign-botton:15px;
-  }
-  input {
-    height: auto !important;
-  }
-  .panel {
-    margin-top: 50px;
-  }
-  /* header */
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  marign-botton: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
+}
+
+#follow_form button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+}
+
+/* header */
 #logout {
-  cursor:default;
+  cursor: default;
   &hover {
-    background-color:transparent;
+    background-color: transparent;
   }
 }
 
@@ -239,3 +252,47 @@ aside {
 .status_form {
   margin-top: 20px;
 }
+
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+    width: 33%;
+    border-left: 1px solid $gray-lighter;
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #337ab7;
+    }
+  }
+  strong {
+    display: block;
+    font-size: 1.2em;
+    color: black;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
+}
+
